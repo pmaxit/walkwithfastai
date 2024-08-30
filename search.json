@@ -1,0 +1,52 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "walkwithfastai",
+    "section": "",
+    "text": "URL: https://pmaxit.github.io/walkwithfastai/\nThis file will become your README and also the index of your documentation.",
+    "crumbs": [
+      "walkwithfastai"
+    ]
+  },
+  {
+    "objectID": "index.html#developer-guide",
+    "href": "index.html#developer-guide",
+    "title": "walkwithfastai",
+    "section": "Developer Guide",
+    "text": "Developer Guide\nIf you are new to using nbdev here are some useful pointers to get you started.\n\nSetup\nIt can be helpful to have a dedicated environment for development. Here we are assuming that you have an conda environment file called env.yml named after walkwithfastai i.e.:\n# env.yml\nname: walkwithfastai\n\nchannels:\n  - fastai\n\ndependencies:\n  - fastai::nbdev&gt;=2.3.12\n# - python&gt;=3.11  # specify python version if required \n# - dependency 1\n# - dependency 2\n# - pip\n# pip:\n#   - pip dependency 1\n#   - pip dependency 2\nYou can then use conda or mamba (faster at resolving) to create and update your environment file should your needs change as you work on walkwithfastai\n# create a conda environment for working on walkwithfastai\n$ mamba env create -f env.yml\n\n# update conda environment\n$ mamba env update -n walkwithfastai --file env.yml\n\n\nInstall walkwithfastai in Development mode\n# activate conda environment\n$ conda activate walkwithfastai\n\n# make sure walkwithfastai package is installed in development mode\n$ pip install -e .\n\n# make changes under nbs/ directory\n# ...\n\n# compile to have changes apply to walkwithfastai\n$ nbdev_prepare",
+    "crumbs": [
+      "walkwithfastai"
+    ]
+  },
+  {
+    "objectID": "index.html#usage",
+    "href": "index.html#usage",
+    "title": "walkwithfastai",
+    "section": "Usage",
+    "text": "Usage\n\nInstallation\nInstall latest from the GitHub repository:\n$ pip install git+https://github.com/pmaxit/walkwithfastai.git\nor from conda\n$ conda install -c pmaxit walkwithfastai\nor from pypi\n$ pip install walkwithfastai\n\n\nDocumentation\nDocumentation can be found hosted on this GitHub repository’s pages. Additionally you can find package manager specific guidelines on conda and pypi respectively.",
+    "crumbs": [
+      "walkwithfastai"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "walkwithfastai",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2",
+    "crumbs": [
+      "walkwithfastai"
+    ]
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()\n\n\nsource\n\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsay_hello(\"Issac\")\n\n'Hello Issac!'\n\n\n\nsource\n\n\nNumber\n\n Number (num)\n\nA number.\n\nNumber(5)\n\nNumber(5)",
+    "crumbs": [
+      "core"
+    ]
+  }
+]
