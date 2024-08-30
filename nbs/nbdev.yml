@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "walkwithfastai"
+  site-url: "https://pmaxit.github.io/walkwithfastai"
+  description: "FastAI experiments"
+  repo-branch: main
+  repo-url: "https://github.com/pmaxit/walkwithfastai"
